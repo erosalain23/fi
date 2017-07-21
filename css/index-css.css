@@ -1,0 +1,107 @@
+html{
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    color: black;
+}
+
+h3{
+    font-family: cookie;
+}
+h1{
+    font-family: "Merienda One";
+}
+span{
+    font-family: Neucha;
+}
+p,a{
+    font-family: "Terminal Dosis";
+}
+h2,h5,h4{
+    font-family: Quicksand;
+}
+body{
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+ul li a{
+    color: black;
+}
+#fi-logo{
+    margin-top: -1.5em;
+}
+div.parallax-container.first{
+    min-height: 500px;
+    -webkit-background-size: auto;
+-moz-background-size: auto;
+background-size: auto;
+}
+div.parallax-container.about-image{
+    height: 600px;
+}
+div.parallax-container.team{
+    height: 800px;
+}
+img.circle{
+    margin-top: 10px;
+}
+div.collapsible-header span{
+    margin-right: 60%;
+    float: right;
+    margin-top:20px;
+}
+div#footer-fi-logo{
+    margin-left: -120px;
+    margin-right: 20px;
+}
+div.nav-fixed{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+nav{
+  background-color: white;  
+}
+div.nav-wrapper{
+    background-color: white; 
+}
+div#greeting-text{
+    margin-top: 53px;
+}
+div img.back{
+    filter: blur(3px);
+}
+div#form{
+    margin-left: 2%;
+}
+div#about-content{
+    margin-top: 4%;
+}
+h4#about{
+    margin-top: 7%;
+}
+div#team-content{
+    margin-top: 7%;
+}
+@media screen and (max-width:480px){
+    div.parallax-container.team{
+    height: 1300px;
+}
+    div.collapsible-header span{
+    margin-right: 30%;
+    float: right;
+    margin-top:20px;
+}
+    div#footer-content p{
+         margin-right: 55%;
+    }
+    div.parallax-container.first{
+        height: 1000px;
+    }
+    div h3#home-heading{
+        text-align: center;
+    }
+    div p#greeting-text{
+        text-align: center;
+    }
+}
